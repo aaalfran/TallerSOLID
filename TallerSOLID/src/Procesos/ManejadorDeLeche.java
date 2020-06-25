@@ -15,6 +15,11 @@ import Postres.*;
  * @author Pedro Mendoza
  */
 public class ManejadorDeLeche {
+
+    public ManejadorDeLeche(LecheEntera a) {
+        
+    }
+    
     
     public void cambiarTipoLeche(LecheEntera leche, Object postre){
         // Cambiar tipo de leche en la preparación de los postres, usar leche deslactosada
