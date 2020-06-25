@@ -14,7 +14,7 @@ pero de otra clase que se encargue de estos.
 4. En el literal 4, se viola el Open/Closed principle, ya que en el caso 
 de querer crear otro aderezo, tendría que modificar el codigo del enum. 
 Cuando simplemente se podría extender de una clase padre Aderezo.  
-5. En el literal 5, se viola el princiio de sustitución de Liskov, 
+5. En el literal 5, se viola el principio de sustitución de Liskov, 
 porque inicialmente la clase hija de Leche Entera no podía comportarse 
 como su clase padre sin presentar fallos en el sistema.  
 
